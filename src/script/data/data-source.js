@@ -10,8 +10,8 @@ class DataSource {
         currentCountry: 'US',
       },
       headers: {
-        'X-RapidAPI-Key': '1178a5d084mshdd89b99509b9d75p1ee7fdjsn9b0991bf2fc5',
-        'X-RapidAPI-Host': 'imdb8.p.rapidapi.com',
+        'X-RapidAPI-Key': process.env.API_KEY,
+        'X-RapidAPI-Host': process.env.API_HOST,
       },
     };
 
@@ -44,8 +44,8 @@ class DataSource {
         purchaseCountry: 'US',
       },
       headers: {
-        'X-RapidAPI-Key': '1178a5d084mshdd89b99509b9d75p1ee7fdjsn9b0991bf2fc5',
-        'X-RapidAPI-Host': 'imdb8.p.rapidapi.com',
+        'X-RapidAPI-Key': process.env.API_KEY,
+        'X-RapidAPI-Host': process.env.API_HOST,
       },
     };
 
@@ -68,8 +68,8 @@ class DataSource {
         sortArg: 'moviemeter,asc',
       },
       headers: {
-        'X-RapidAPI-Key': '1178a5d084mshdd89b99509b9d75p1ee7fdjsn9b0991bf2fc5',
-        'X-RapidAPI-Host': 'imdb8.p.rapidapi.com',
+        'X-RapidAPI-Key': process.env.API_KEY,
+        'X-RapidAPI-Host': process.env.API_HOST,
       },
     };
 
